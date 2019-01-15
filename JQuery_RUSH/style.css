@@ -1,0 +1,122 @@
+body {
+    width: 950px;
+    margin: auto;
+    background-image: url("thumb-1920-593295.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+}
+
+.header {
+    display: grid;
+    margin: auto;
+    width: 500px;
+}
+
+h1 {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 60px;
+    text-align: center;
+}
+
+#game_assets {
+    grid-column: 3;
+    grid-row: 1;
+    text-align: center;
+    font-size: 20px; 
+    color: red;
+    background-image: url("logo-ricard-big.png");
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+#board {
+    margin: auto;
+    width: 420px;
+    height: 420px;
+}
+
+.myButton {
+    background-color:#1eff00;
+    display:inline-block;
+    cursor:pointer;
+    font-size:18px;
+    padding:8px 24px;
+}
+
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+.cell {
+    position: relative;
+    border: 2px solid black;
+    float:left;
+    width:100px;
+    height:100px;
+    display: inline-flex;
+    background-color: white;
+    font-size: 56px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.case2 {
+    background-color: aquamarine;
+    display: inline-block;
+}
+
+.case4 {
+    background-color: rgb(127, 219, 255);
+    display: inline-block;
+}
+
+.case8 {
+    background-color: rgb(91, 183, 245);
+    display: inline-block;
+}
+
+.case16 {
+    background-color: rgb(98, 87, 252);
+    display: inline-block;
+}
+
+.case32 {
+    background-color: rgb(251, 127, 255);
+    display: inline-block;
+}
+
+.case64 {
+    background-color: rgb(255, 96, 234);
+    display: inline-block;
+}
+
+.case128 {  
+    background-color: rgb(253, 108, 127);   
+    display: inline-block;
+}
+
+.case256 {
+    background-color: rgb(255, 49, 49);
+    display: inline-block;
+}
+
+.case512 {
+    background-color: rgb(229, 255, 0);
+    display: inline-block;
+}
+
+.case1024 {
+    background-color: rgb(255, 159, 15);
+    display: inline-block;
+}
+
+.case2048 {
+    background-color: rgb(9, 255, 0);
+    display: inline-block;
+}
